@@ -1,7 +1,18 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg"  id="header_bg">
     <a class="navbar-brand" href="#">Hr consulting</a>
-    <button onclick="navbar(this)" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button  onclick="navbar(this)" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"  style="display: none;"></span>
+      <div style="background-color: black;">
+        <div class="menu_h" >
+
+        </div>
+        <div class="menu_h" >
+          
+        </div>
+        <div class="menu_h" >
+          
+        </div>
+      </div>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
@@ -28,12 +39,6 @@
  
 
 function navar_click(_this) {
-
- 
-
-
-
-
   switch (_this.title) {
   case "home":
   navar_click_(_this.title);
@@ -46,8 +51,7 @@ function navar_click(_this) {
     break;
   case "autre":
    navar_click_(_this.title);
-    break;
- 
+    break; 
 }
  
 }    

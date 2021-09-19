@@ -54,12 +54,14 @@ function navar_click_(el){
  
   }
 // SERIE TES
+
+
   setTimeout(function(){ 
     
     
      // apres 300ms chargement du formulaire php 
      
-    Ajax("section",source_form+"connexion.php"); 
+    Ajax("section",source_form+"home.php"); 
 
  
 
@@ -82,7 +84,9 @@ function navar_click_(el){
   }, 10);
  
 
-  // SERIE TES
+  /*
+
+  // SERIE TES ajout des valeur dans le formulaire automatiquement
   setTimeout(function(){ 
     
     //testing 
@@ -97,4 +101,12 @@ function navar_click_(el){
  }, 100);
 
 
+ */
+ function section_click(_this) {
+
  
+  Ajax("header_option",source_form+_this.title+".php"); 
+
+ 
+  
+ }

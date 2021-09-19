@@ -6,9 +6,6 @@
   body{
  
   }
-  .margin_top_150{
-    margin-top: 150px;
-  }
   #form-group{
     width: 60%;
     margin: auto;
@@ -83,9 +80,4 @@ html {
         margin-top:100px;
         justify-content: center;
         }
-  
-
-        
     }
-
- 

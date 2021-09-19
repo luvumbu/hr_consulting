@@ -25,8 +25,6 @@ $fin="?>".$n;
 // nom du fichier courant
 $nom_file = "connexion.php";
  try {
-
-
  
  // debut du test 
                       // Create connection
@@ -43,7 +41,7 @@ $nom_file = "connexion.php";
                       adresse_ip VARCHAR(30) NOT NULL,
                       click VARCHAR(30) NOT NULL,
                       x_position VARCHAR(30) NOT NULL,
-                      y_position VARCHAR(50),                     
+                      y_position VARCHAR(50),
                       reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
                       )";
 
@@ -56,71 +54,6 @@ $nom_file = "connexion.php";
                       }
 
                       $conn->close();
-
-
-
-                       // debut du test 
-                      // Create connection
-                      $conn = new mysqli($servername, $username, $password, $dbname);
-                      // Check connection
-                      if ($conn->connect_error) {
-                        die("Connection failed: " . $conn->connect_error);
-                        
-                      }
-
-                      // sql to create table
-                      $sql = "CREATE TABLE users (
-                      id_users	 INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-                      adresse_ip VARCHAR(30) NOT NULL,  
-                      input_mail VARCHAR(30) NOT NULL,  
-                      input_password VARCHAR(30) NOT NULL,                    
-                      reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-                      )";
-
-                      if ($conn->query($sql) === TRUE) {
-                        echo "Table users created successfully";
-                      
-                      } else {
-                        echo "Error creating table: " . $conn->error;
-                      
-                      }
-
-                      $conn->close();
-
-
-
-
-                                             // debut du test 
-                      // Create connection
-                      $conn = new mysqli($servername, $username, $password, $dbname);
-                      // Check connection
-                      if ($conn->connect_error) {
-                        die("Connection failed: " . $conn->connect_error);
-                        
-                      }
-
-                      // sql to create table
-                      $sql = "CREATE TABLE annonces (
-                      id_annonces	 INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-                      adresse_ip VARCHAR(30) NOT NULL,  
-                      titre VARCHAR(30) NOT NULL,  
-                      adresse VARCHAR(30) NOT NULL,  
-                      type_contrat VARCHAR(30) NOT NULL,  
-                      input_password TEXT(500) NOT NULL,                    
-                      reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-                      )";
-
-                      if ($conn->query($sql) === TRUE) {
-                        echo "Table annonces created successfully";
-                      
-                      } else {
-                        echo "Error creating table: " . $conn->error;
-                      
-                      }
-
-                      $conn->close();
-
-                      
                      
  // fin du test 
 } 

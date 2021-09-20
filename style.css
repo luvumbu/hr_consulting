@@ -66,6 +66,22 @@ html {
 .none{
   display:none;
 }
+#header_bg {
+  background-color:#00263d ; 
+  color:white;
+  
+}
+#header_bg  a {
+  color:white ; 
+}
+.menu_h{
+  width:50px;
+  height:5px; 
+  background-color:white;
+  margin-bottom:5px;
+}
+ 
+
   @media screen and (max-width: 1280px)
     {
       .class_img img{

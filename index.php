@@ -78,19 +78,6 @@ if($config_==false){
 
 <style>
 
-  #header_bg {
-    background-color:#00263d ; 
-    color:white;
-    
-  }
-  #header_bg  a {
-    color:white ; 
-  }
-  .menu_h{
-    white:50px;
-    height:5px; 
-    background-color:white;
-    margin-bottom:5px;
-  }
+
 </style>
 </html>

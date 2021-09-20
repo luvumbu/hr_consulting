@@ -1,8 +1,3 @@
 <?php 
 include("section.html");
 ?>
-
-
- 
- 
- 

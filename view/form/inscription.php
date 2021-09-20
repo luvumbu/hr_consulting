@@ -1,6 +1,10 @@
 <?php 
 session_start() ; 
 ?>
+
+<div    id="info_tutox"></div>
+ 
+<div id="info_inscription"></div>
 <form class="form_global" id="form" title="inscription">
     <div class="form-group">
       <label for="exampleInputEmail1">Email address</label>
@@ -11,7 +15,7 @@ session_start() ;
   
  
     </div>
-    <button type="submit" style="background-color:#00263d ; border:1px solid #00263d" class="btn btn-primary" id="submit_" onclick="submit_form(this)">Submit</button>
+    <button type="submit" style="background-color:#00263d ; border:1px solid #00263d" class="btn btn-primary" id="submit_" onclick="submit_form(this)" title="inscription">Submit</button>
   </form>
  
 

@@ -84,21 +84,14 @@ $nom_file = "connexion.php";
                         echo "Error creating table: " . $conn->error;
                       
                       }
-
                       $conn->close();
-
-
-
-
-                                             // debut du test 
+                      // debut du test 
                       // Create connection
                       $conn = new mysqli($servername, $username, $password, $dbname);
                       // Check connection
                       if ($conn->connect_error) {
-                        die("Connection failed: " . $conn->connect_error);
-                        
+                        die("Connection failed: " . $conn->connect_error);                        
                       }
-
                       // sql to create table
                       $sql = "CREATE TABLE annonces (
                       id_annonces	 INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -117,26 +110,13 @@ $nom_file = "connexion.php";
                         echo "Error creating table: " . $conn->error;
                       
                       }
-
-                      $conn->close();
-
-                      
-                     
+                      $conn->close();                     
  // fin du test 
 } 
 catch (Exception $e) {
-  echo 'Exception reçue : ',  $e->getMessage(), "\n";
-   
-   
+  echo 'Exception reçue : ',  $e->getMessage(), "\n";   
 }
- 
-
-
-
 try {
-  
- 
-
   $conn = new PDO("mysql:host=$servername;dbname=".$dbname, $username, $password);
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -152,9 +132,7 @@ try {
  
 } catch(PDOException $e) {
   echo "une erreur";
-  echo "Connection failed: " . $e->getMessage();
- 
-  
+  echo "Connection failed: " . $e->getMessage(); 
 }
 // Si le formulaire est correctement remplie création d'une table plus un fichier de configuration 
 // rafrechissement de la page appartir du fiuchier Javascript localisation

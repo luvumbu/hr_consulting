@@ -71,6 +71,22 @@ if ($result->num_rows > 0) {
 } else {
   $_SESSION['statu_general']="777" ; 
   echo "inscription ok" ; 
+// Create connection
+ 
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "INSERT INTO users (input_mail)
+VALUES ('$input_mail')";
+
+if ($conn->query($sql) === TRUE) {
+  echo "New record created successfully";
+} else {
+  echo "Error: " . $sql . "<br>" . $conn->error;
+}
+$conn->close();
 }
 $conn->close();
 } 

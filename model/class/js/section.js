@@ -50,6 +50,13 @@ function submit_form(_this){
 
 
 
+  setTimeout(function(){ 
+
+  document.getElementById("info_tuto").style.display="none" ; 
+
+   }, 3000);
+
+
 
 
 

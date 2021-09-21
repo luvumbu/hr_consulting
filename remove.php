@@ -2,7 +2,6 @@
 Suprimmer le fichier de configuration a laide du l'url remove.php dans la racine
 // il suffis d'entrer les information de la BDD 
 -->
-
 <script src="model/class/js/remove.js"></script>
 <?php
 include("link.html");

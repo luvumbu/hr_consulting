@@ -3,10 +3,6 @@
 
 <div id="red"></div>
 
- 
- 
-
-
 <?php 
 include("../view/header.php");
 include("../view/section.php");

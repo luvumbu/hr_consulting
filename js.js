@@ -1,5 +1,5 @@
 function showCoords(event) {
- /*
+  
     if(montre==true){
         var x_position = event.clientX;
         var y_position = event.clientY;
@@ -19,7 +19,7 @@ function showCoords(event) {
  ok.push(); // envoie l'information au code pkp 
  
     }
- */
+ 
   }
   
   function clearCoor() {   

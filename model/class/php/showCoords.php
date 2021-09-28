@@ -13,13 +13,8 @@ if (file_exists($filename)) {
     include("connexion.php") ;
     $ajout = true;
 } else {
-    echo "Le fichier $filename n'existe pas.";
-    
+    echo "Le fichier $filename n'existe pas.";    
 }
-
-
-
-
 echo $dbname ;
 echo $username ;
 echo $password ;
@@ -32,8 +27,6 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-
-
 if($showCoords_=="1"){
   $sql = "INSERT INTO showCoords (adresse_ip,click,x_position,y_position )
   VALUES ('$REMOTE_ADDR','false','$x_position','$y_position')";
@@ -42,9 +35,6 @@ if($showCoords_=="1"){
     $sql = "INSERT INTO showCoords (adresse_ip,click,x_position,y_position )
 VALUES ('$REMOTE_ADDR','true','$x_position','$y_position')";
   }
-  
- 
-
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
 } else {
@@ -52,9 +42,4 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-
-
-
-
-
 ?>

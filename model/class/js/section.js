@@ -1,15 +1,21 @@
-function navar_click_(el){
+
+function navar_click_btn(_this) {
+
   // ajout asynchrone information dans le div section 
   const xhttp = new XMLHttpRequest();
 xhttp.onload = function() {
-
+ 
   document.getElementById("section").innerHTML =
   this.responseText;
 }
-xhttp.open("GET", "view/form/"+el+".php");
-xhttp.send();  
-}
 
+ xhttp.open("GET", "view/form/"+_this.title+".php");
+
+//xhttp.open("GET", "view/form/connexion_.php");
+
+xhttp.send();
+ 
+}
 
 const source_form ="view/form/";
 //navar_click_("connexion");

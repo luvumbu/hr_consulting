@@ -27,7 +27,7 @@ else {
         ?>
         
         <div class="alert alert-danger form_global" role="alert" id="info_tuto" title="0">
-       erreur inscription
+       erreur inscription l'itilisateur exite 
         </div>
          
         <?php 

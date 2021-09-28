@@ -74,10 +74,4 @@ if($config_==false){
 ?>
  <script src="js.js"></script>
 </body>
-
-
-<style>
-
-
-</style>
 </html>

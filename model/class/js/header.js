@@ -1,7 +1,5 @@
-function navbar(_this){
-     
-    var navbar=document.getElementById("navbarNav"); 
-    
+function navbar(_this){     
+    var navbar=document.getElementById("navbarNav");     
     if(navbar.className=="collapse navbar-collapse") {
         console.log("navbar off");
         navbar.className="navbar-collapse";
@@ -10,6 +8,5 @@ function navbar(_this){
         console.log("navbar on");
         navbar.className="collapse navbar-collapse";
     }
-
 }
  

@@ -1,0 +1,34 @@
+.text_center {
+    
+    text-align:center ; 
+
+}
+.display_flex {
+ 
+    display:flex ; 
+    justify-content:space-around; 
+  
+
+}
+.display_flex div {
+    padding: 10px ; 
+}
+.display_flex div:hover {
+    background-color:#1b4660 ; 
+    cursor:pointer ; 
+}
+.tip_section {
+    width:60%; 
+    margin:auto; 
+}
+
+@media screen and (max-width: 1280px)
+    {
+ 
+  
+        .tip_section {
+    width:100%; 
+    margin:auto; 
+}
+        
+    }

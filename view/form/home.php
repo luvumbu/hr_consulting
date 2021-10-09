@@ -1,4 +1,5 @@
-<div class="a">
+<link rel="stylesheet" href="view/form/home.css">
+<div class="text_center">
     <h1>
       100 % FREELANCE 100 % IT
 7080 MISSIONS  
@@ -8,7 +9,7 @@
 
    
 <div class="margin_top_150"></div>
-    <div class="display_flex">
+    <div class="display_flex header_blue_color">
         <div onclick="section_click(this)" title="mon_cv">
             Mon cv 
         </div>
@@ -30,39 +31,3 @@
 <div class="tip_section">
     <div id="header_option"></div>
 </div>    
-<style>
-.a {
-    
-    text-align:center ; 
-
-}
-.display_flex {
-    color:white; 
-    display:flex ; 
-    justify-content:space-around; 
-    background-color:#00263d ;
-
-}
-.display_flex div {
-    padding: 10px ; 
-}
-.display_flex div:hover {
-    background-color:#1b4660 ; 
-    cursor:pointer ; 
-}
-.tip_section {
-    width:60%; 
-    margin:auto; 
-}
-
-@media screen and (max-width: 1280px)
-    {
- 
-  
-        .tip_section {
-    width:100%; 
-    margin:auto; 
-}
-        
-    }
-</style>

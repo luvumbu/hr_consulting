@@ -71,6 +71,16 @@ html {
   color:white;
   
 }
+.header_blue_color {
+  background-color:#00263d ; 
+  color:white;
+  
+}
+.header_blue_color a {
+  
+  color:white;
+  
+}
 #header_bg  a {
   color:white ; 
 }

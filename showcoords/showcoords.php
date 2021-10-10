@@ -1,6 +1,7 @@
 <?php
  
 include('model/class/php/connexion.php');
+echo $dbname ; 
 /*
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

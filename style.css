@@ -3,9 +3,8 @@
    src: url("src/font/OwlCute.ttf");
    
   }
-  body{
  
-  }
+ 
   .margin_top_150{
     margin-top: 150px;
   }
@@ -32,7 +31,8 @@
     margin-top:100px;
     justify-content: center;
   }
-  /* width */
+/* width */
+
 ::-webkit-scrollbar {
   width: 20px;
 }

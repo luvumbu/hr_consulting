@@ -1,8 +1,6 @@
 <?php
  
-include('model/class/php/connexion.php');
-echo $dbname ; 
-/*
+include('../model/class/php/connexion.php');
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -29,7 +27,6 @@ if ($result->num_rows > 0) {
     
     */
 
-    /*
     echo ','; 
     echo '{'; 
     echo '"id_showCoords":"'.$row['id_showCoords'].'"'; 
@@ -64,8 +61,5 @@ if ($result->num_rows > 0) {
 $conn->close();
 
  echo  ']';
-
- */
-echo "ok"; 
 ?>
 

@@ -5,7 +5,7 @@
 </header>
 <section>
     <?php       
-        include("view/section.php");
+       include("view/section.php");
     ?>
 </section>
 <footer>

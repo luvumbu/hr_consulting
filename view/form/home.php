@@ -1,13 +1,9 @@
-<link rel="stylesheet" href="view/form/home.css">
+
 <div class="text_center">
     <h1>
-      100 % FREELANCE 100 % IT
-7080 MISSIONS  
+    Embauchez les meilleurs freelance pour n'importe quel travail, en ligne.
     </h1>
-
-    <div class="tip_section">
-
-   
+    <div class="tip_section">   
 <div class="margin_top_150"></div>
     <div class="display_flex header_blue_color">
         <div onclick="section_click(this)" title="mon_cv">

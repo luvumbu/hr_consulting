@@ -99,7 +99,7 @@ $nom_file = "connexion.php";
                       titre VARCHAR(30) NOT NULL,  
                       adresse VARCHAR(30) NOT NULL,  
                       type_contrat VARCHAR(30) NOT NULL,  
-                      input_password TEXT(500) NOT NULL,                    
+                      annonce_txt TEXT(500) NOT NULL,                    
                       reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
                       )";
 
